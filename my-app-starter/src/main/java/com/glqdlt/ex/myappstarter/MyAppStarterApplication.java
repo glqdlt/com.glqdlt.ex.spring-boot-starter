@@ -17,7 +17,6 @@ public class MyAppStarterApplication implements ApplicationRunner{
 		SpringApplication.run(MyAppStarterApplication.class, args);
 	}
 
-	@Override
 	public void run(ApplicationArguments args) throws Exception {
 		System.out.println(mySetup.toString());
 	}
