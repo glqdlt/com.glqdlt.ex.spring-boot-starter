@@ -21,7 +21,7 @@ public class MySetupProperty {
         this.auto = auto;
     }
 
-    private String prefix;
-    private boolean auto;
+    private String prefix = "def";
+    private boolean auto = false;
 
 }
